@@ -10,8 +10,18 @@ public class string {
          char c = name2.charAt(4);
          System.out.println(c);
 
-         //lenght at (mane character kaha eh ) position 0 se shuru hoti he 
+         //lenght
          int len = name2.length();
          System.out.println(len);
+
+         //replace
+         String newName = name2.replace("Amanu", "Amany");
+         System.out.println(newName);
+         System.out.println(name2); //string is immutable and if want change make new string
+
+
+         //substring 
+            String subName = name2.substring(2,4);
+            System.out.println(subName);
     }
 }
