@@ -17,9 +17,13 @@ public class arrayasc {
             for (int j = i + 1; j < arr.length; j++) {
                 // If the current element is greater than the compared element, swap them
                 if (arr[i] > arr[j]) {
-                    int temp = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = temp;
+                    // int temp = arr[i];
+                    // arr[i] = arr[j];
+                    // arr[j] = temp;
+                    arr[i] = arr[j] ^ arr[i]; // j is the bigger number
+                    arr[j] = arr[i] ^ arr[j]; // j is the smaller
+                    arr[i] = arr[i] ^ arr[j]; // i is the smaller number
+                    // System.out.println("Swapping " + arr[i] + " and " + arr[j]);
                 }
             }
         }
