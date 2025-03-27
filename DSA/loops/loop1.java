@@ -7,15 +7,9 @@ public class loop1 {
         Scanner sc = new Scanner(System.in);
         String fruit = sc.next();
         switch (fruit) {
-            case "apple":
-                System.out.println("doctors away !?");
-                break;
-            case "banana":
-                System.out.println("banana");
-                break;
-            default:
-                System.out.println("nothing");
-                break;
+            case "apple" -> System.out.println("doctors away !?");
+            case "banana" -> System.out.println("banana");
+            default -> System.out.println("nothing");
         }
     }
 }
