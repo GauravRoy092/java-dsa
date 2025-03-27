@@ -7,7 +7,7 @@ public class loop2 {
         System.out.println("Enter the fruit : ");
         String fruit = sc.next();
 
-//        the if statement is used instead ogf switch statement
+//        the if statement is used instead of switch statement
 
         if (fruit.equals("apple")) {
             System.out.println("doctors away");
