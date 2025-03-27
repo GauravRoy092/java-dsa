@@ -8,7 +8,7 @@ public class loop1 {
         String fruit = sc.next();
         switch (fruit) {
             case "apple":
-                System.out.println("doctors away");
+                System.out.println("doctors away !!!");
                 break;
             case "banana":
                 System.out.println("banana");
